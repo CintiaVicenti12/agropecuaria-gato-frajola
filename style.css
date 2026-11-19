@@ -1,0 +1,201 @@
+
+/* CONFIGURACOES GERAIS */
+
+body {
+    background-image: url("img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #F2EAF8;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* CABECALHO */
+
+header {
+    background-color: #3D175C;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+/* MENU */
+
+nav {
+    background-color: #552078;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #70359A;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* CONTEUDO PRINCIPAL */
+
+main {
+    background-color: #F2EAF8;
+    max-width: 1100px;
+    min-height: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h2 {
+    color: #3D175C;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #552078;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* PAGINA INICIAL */
+
+#inicio {
+    background-color: white;
+    border: 1px solid #D7BCE7;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+/* CATEGORIAS E PRODUTOS */
+
+.categorias {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.categoria {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    width: 220px;
+    min-height: 330px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #D7BCE7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.categoria img {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.categoria h3 {
+    color: #552078;
+    font-size: 19px;
+}
+
+.categoria p {
+    color: #555555;
+    font-size: 14px;
+}
+
+/* DETALHES DO PRODUTO */
+
+.detalhes {
+    background-color: white;
+    width: 450px;
+    max-width: 85%;
+    padding: 25px;
+    margin: 25px auto;
+    border: 1px solid #D7BCE7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.detalhes img {
+    width: 280px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* PROMOCOES */
+
+.preco-antigo {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.preco-novo {
+    color: #6A1B9A;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* SOBRE NOS E CONTATO */
+
+.sobre,
+.contato {
+    background-color: white;
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #D7BCE7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* BOTOES */
+
+.botao {
+    display: inline-block;
+    background-color: #70359A;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* RODAPE */
+
+.rodape {
+    background-color: #3D175C;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.rodape h3 {
+    color: white;
+}
+
+.rodape p {
+    color: #E9D5F5;
+    font-size: 14px;
+}
